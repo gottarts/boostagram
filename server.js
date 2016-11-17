@@ -10,5 +10,5 @@ server.start((err) => {
     if (err) {
         throw err;
     }
-    console.log(`Boostagram running at: ${server.info.uri}`);
+    console.log(`Boostagram running a: ${server.info.uri}`);
 });
